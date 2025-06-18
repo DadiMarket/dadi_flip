@@ -1,0 +1,8 @@
+{
+    "flipingTime": 15000,
+    "maxDistance": 2,
+    "minFlipAngle": 75.0,
+    "allowFlipWithPlayers": false,
+    "targetLabel": "Voltear Vehículo",
+    "targetIcon": "fa-solid fa-car-crash"
+}
