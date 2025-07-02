@@ -1,45 +1,14 @@
 {
     "error": {
        "canceled": "cancelado..",
-       "cruise_control_disabled": "control de crucero desactivado",
-       "cruise_control_unavailable": "control de crucero no disponible",
-       "deleted_recording": "grabación eliminada!",
-       "later_aligator": "hasta luego, cocodrilo!",
-       "stress_gain": "¡sintiéndome más estresado!",
        "no_vehicle_nearby": "no hay vehículo cerca para volcar.",
-       "is_handcuffed": "estás esposado.",
-       "is_fastened": "llevas puesto el cinturón de seguridad.",
-       "vehicle_not_flipped": "El vehículo no está volcado",
-       "players_in_vehicle": "Hay jugadores dentro del vehículo"
+       "vehicle_not_flipped": "El vehículo no está volcado"
     },
     "success": {
-       "cruise_control_enabled": "control de crucero activado",
-       "started_recording": "¡grabación iniciada!",
-       "stopped_recording": "¡grabación detenida!",
-       "saved_recording": "¡grabación guardada!",
-       "stress_relief": "¡sintiéndome más relajado!",
        "flipped_car": "¡vehículo volcado con éxito!"
     },
     "progress": {
-       "eating": "comiendo..",
-       "drinking": "bebiendo..",
-       "drinking_liquor": "bebiendo licor..",
-       "quick_sniff": "olfateada rápida..",
-       "smoking_crack": "fumando crack..",
-       "popping_pills": "tomando pastillas..",
-       "healing": "sanando..",
-       "smoking_meth": "fumando metanfetamina..",
-       "lighting_joint": "encendiendo porro..",
        "flipping_car": "volcando vehículo..."
-    },
-    "info": {
-       "minutes": "minutos",
-       "seconds": "segundos..",
-       "shuffleseat": "mezclar asiento"
-    },
-    "actions": {
-       "push_vehicle": "presiona [~g~shift~w~] y [~g~e~w~] para empujar el vehículo hasta que se suelte [~g~shift~w~]",
-       "toggle_cruise_control": "alternar control de crucero"
     },
     "target": {
        "flip_vehicle": "Voltear Vehículo"
