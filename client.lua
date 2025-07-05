@@ -19,12 +19,14 @@ local locale = loadLocales()
 local function flipVehicle(vehicle, flipTest)
     if cache.vehicle then return end
     if not vehicle then vehicle = lib.getClosestVehicle(GetEntityCoords(cache.ped), config.maxDistance, false) end
-    if not vehicle then return exports.qbx_core:Notify(locale.error.no_vehicle_nearby, 'error') end
+    if not vehicle then
+         return lib.notify({description = locale.error.no_vehicle_nearby, type = 'error'}) end
+    if not vehicle then return  end
     local peedCoords = GetEntityCoords(cache.ped)
     local vehicleCoords = GetEntityCoords(vehicle)
 
     if #(peedCoords - vehicleCoords) > config.maxDistance then
-        return exports.qbx_core:Notify(locale.error.no_vehicle_nearby, 'error')
+        return lib.notify({description = locale.error.no_vehicle_nearby, type = 'error'})
     end
 
     if flipTest or lib.progressBar({
@@ -44,9 +46,9 @@ local function flipVehicle(vehicle, flipTest)
         },
     }) then
         SetVehicleOnGroundProperly(vehicle)
-        exports.qbx_core:Notify(locale.success.flipped_car, 'success')
+        lib.notify({description = locale.success.flipped_car, type = 'success'})
     else
-        exports.qbx_core:Notify(locale.error.canceled, 'error')
+        lib.notify({description = locale.error.canceled, type = 'error'})
     end
 end
 

@@ -3,7 +3,7 @@ game 'gta5'
 author 'DADI MARKET'
 
 description 'DADI Flip Vehicle'
-version '1.0.0'
+version '1.0.1'
 
 shared_scripts {
     '@ox_lib/init.lua'
@@ -20,8 +20,7 @@ files {
 
 dependencies {
     'ox_lib',
-    'ox_target',
-    'qbx_core'
+    'ox_target'
 }
 
 lua54 'yes'
