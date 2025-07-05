@@ -1,0 +1,16 @@
+{
+    "error": {
+       "canceled": "canceled..",
+       "no_vehicle_nearby": "no vehicle nearby to flip.",
+       "vehicle_not_flipped": "The vehicle is not flipped"
+    },
+    "success": {
+       "flipped_car": "vehicle flipped successfully!"
+    },
+    "progress": {
+       "flipping_car": "flipping vehicle..."
+    },
+    "target": {
+       "flip_vehicle": "Flip Vehicle"
+    }
+ }

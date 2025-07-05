@@ -1,6 +1,6 @@
 # DADI Flip Vehicle Script with ox_target
 
-A modern and lightweight FiveM script that allows players to flip overturned vehicles using QBox framework, ox_lib, and ox_target integration.
+A modern and lightweight FiveM script that allows players to flip overturned vehicles using any framework, ox_lib, and ox_target integration.
 
 ## 🚗 Features
 
@@ -10,7 +10,6 @@ A modern and lightweight FiveM script that allows players to flip overturned veh
 - ✅ **JSON configuration**: Easy customization without touching code
 - ✅ **Multi-language support**: Locale system using JSON format
 - ✅ **Optimized performance**: Efficient for high-population servers
-- ✅ **QBox Framework**: Fully compatible with QBox ecosystem
 
 ## 📋 Requirements
 
@@ -25,15 +24,14 @@ A modern and lightweight FiveM script that allows players to flip overturned veh
 
 2. **Add to your `server.cfg`**:
    ```cfg
-   ensure your-flip-vehicle-script
+   ensure dadi_flip
    ```
 
 3. **Ensure dependencies are loaded in correct order**:
    ```cfg
    ensure ox_lib
    ensure ox_target
-   ensure qbx_core
-   ensure your-flip-vehicle-script
+   ensure dadi_flip
    ```
 
 ## ⚙️ Configuration
@@ -134,18 +132,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💎 Credits
 
-- **QBox Framework Team** - For the excellent framework
 - **Overextended** - For ox_lib and ox_target
 - **Contributors** - Thanks to all contributors
 
 ## 🔄 Changelog
+
+### v1.0.1
+- remove qbox dependence
+- change notify system to ox_lib notify
 
 ### v1.0.0
 - Initial release
 - ox_target integration
 - JSON configuration system
 - Multi-language support
-- QBox framework compatibility
 
 ---
 
